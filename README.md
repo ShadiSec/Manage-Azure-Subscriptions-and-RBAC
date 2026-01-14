@@ -81,3 +81,5 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 - In this lab, we create a Management Group to manage access to multiple Subscriptions simultaneously.
 - Created a helpdesk role that can manage Virtual Machines across all subscriptions within the Management Group via inheritance.
 - Created and assigned a custom Azure Support role by using one of the existing Microsoft Roles as a template.
+
+Microsoft's Write-up: https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator/blob/master/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.md
