@@ -11,7 +11,7 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 3. Once the group has been created, click on the **3 dots (…)** next to your subscription(s) and select ‘**Move’**.
 4. Move them to the new **Management Group**.
     
-    ![image.png](Azure%20Manage%20Subscriptions%20and%20RBAC/image.png)
+    ![image.png](/image.png)
     
 
 ## Create the helpdesk Group
@@ -19,7 +19,7 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 1. Navigate to the **Entra ID portal** > **Manage** > **Groups.**
 2. Click on ‘**New Group’** and give it a name. Everything else can be left as default.
     
-    ![image.png](Azure%20Manage%20Subscriptions%20and%20RBAC/image%201.png)
+    ![image.png](/image%201.png)
     
 3. Click ‘**Create’**.
 
@@ -35,7 +35,7 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 6. Then, under '**Members**', click on '**Select members**' and choose the **helpdesk** role we created earlier.
 7. Click ‘**Review + assign**’. Once reviewed, click it again to assign the role to the helpdesk group.
     
-    ![image.png](Azure%20Manage%20Subscriptions%20and%20RBAC/image%202.png)
+    ![image.png](/image%202.png)
     
 
 > If you added multiple subscriptions to the Management Group, assigning this role at the Management Group scope allows the helpdesk group to manage Virtual Machines across all the Subscriptions.
@@ -50,7 +50,7 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 5. In the ‘**Permissions**’ tab, click ‘**Exclude permissions**’ and select ‘**Microsoft Support**’. Then you will select ‘**Register Support Resource Provider**’ and click ‘**Add**’.
     1. Under the default ‘**Support Request Contributor**’ role, all permissions under ‘**Microsoft.Support**’ are granted. So, we use the ‘**Exclude permissions**’ tab to revoke a specific action from being performed.
         
-        ![image.png](Azure%20Manage%20Subscriptions%20and%20RBAC/image%203.png)
+        ![image.png](/image%203.png)
         
 6. Click ‘**Review + create**’, review the role permissions, and click ‘**Create**’.
 
@@ -63,7 +63,7 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 2. Click on ‘**Management Group**’ highlighted in blue and select **your** Management Group.
 3. Here, you can monitor the creation/assignment of roles within the Management Group. 
     
-    ![image.png](Azure%20Manage%20Subscriptions%20and%20RBAC/image%204.png)
+    ![image.png](/image%204.png)
     
 
 ## Takeaway
