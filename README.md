@@ -5,7 +5,7 @@
 2. [Create Management Group](#Create-the-management-group)
 3. [Create the helpdesk Group](#Create-the-helpdesk-group)
 4. [Assign RBAC Roles](#Assigning-rbac-roles)
-   - [VM Contributor Role](#VM-sontributor-role)
+   - [VM Contributor Role](#VM-contributor-role)
    - [Custom Support Role](#Custom-support-role)
 5. [Monitor Role Assignment](#Monitor-role-assignment)
 6. [Takeaway](#Takeaway)
