@@ -1,5 +1,15 @@
 # Manage Azure Subscriptions and RBAC Lab
 
+**Table of Contents**
+1. [Introduction](#Overview)
+2. [Create Management Group](#Create-the-management-group)
+3. [Create the helpdesk Group](#Create-the-helpdesk-group)
+4. [Assign RBAC Roles](#Assign-rbac-roles)
+   - [VM Contributor Role](#VM-sontributor-role)
+   - [Custom Support Role](#Custom-support-role)
+5. [Monitor Role Assignment](#Monitor-role-assignment)
+6. [Takeaway](#Takeaway)
+
 # Overview
 
 In this lab, we will use a **Management Group** to manage Access to **Virtual Machines** within multiple **Subscriptions** without having to edit each Subscription separately. 
@@ -57,7 +67,7 @@ In this lab, we will use a **Management Group** to manage Access to **Virtual Ma
 > Now we’ve created a custom role and assigned it to our Management Group. This grants the helpdesk group the ability to exercise their permissions across all the Subscriptions within the Management Group.
 > 
 
-## Monitor the Azure Environment
+## Monitor Role Assignment
 
 1. Navigate to the ‘**Monitor**’ portal > ‘**Activity log**’ blade.
 2. Click on ‘**Management Group**’ highlighted in blue and select **your** Management Group.
